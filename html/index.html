@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARNING</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+    <div class="container1">
+        <nav>
+            <h3 class="logo">learning</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/html/studentinfo.html">Student Info</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        
+        <header class="header">
+            <video class="header-video" autoplay muted loop>
+                <source src="/original-c6f867f003d0615678ac3f8cc96e3396.mp4" type="video/mp4">
+            </video>
+            <div class="header-content">
+                <h1>Welcome to <br>Our Student Academy</h1>
+            </div>
+        </header>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <h1 class=" text-center mt-3">STUDENTS SYSTEM</h1>
+        <div class="container">
+            <label for="studentName">Student Name</label>
+            <input class=" form-control my-3" type="text" id="studentName" required>
+            <label for="studentage">Student Age</label>
+            <input class=" form-control my-3" type="number" max="60" min="25" id="studentage" required>
+            <label for="studentsalary">Student Salary</label>
+            <input class=" form-control my-3 " type="number" id="studentsalary" required>
+            <label for="studentDepartment">studentDepartment
+                <select name="" id="studentDepartment" class=" form-select my-3" required>
+                    <option value="CS">cs</option>
+                    <option value="IS">IS</option>
+                    <option value="IT">IT</option>
+                    <option value="SE">SE</option>
+                </select>
+            </label><br><br><br><br>
+            <button type="submit" id="addButton" onclick="addStudent();" class="btn btn-outline-info d-block ">Add New
+                Student</button>
+        </div>
+    </div>
+<br><br><br><br><br><br><br>
+<br><br><br>
+
+
+<section class="about-section">
+    <div class="about-photo-container">
+        <img src="/assests/para.jpg" alt="About Us" class="about-photo">
+    </div>
+    <div class="about-text-container">
+        <h2>About Us</h2>
+        <p>Welcome to <mark> L E A R N I N G</mark>, where we are committed to fostering a love for learning and academic excellence. Our dedicated team of educators and experts is here to provide high-quality educational resources and support to students of all ages. We believe in creating a nurturing environment that encourages curiosity, critical thinking, and a lifelong passion for knowledge. Join us on a journey of discovery and growth as we empower learners to reach their full potential.</p>
+    </div>
+</section> 
+<br><br><br><br><br><br><br>
+<br><br><br>
+
+<section class="ourway-section">
+   
+    <div class="ourway-text-container">
+        <h2>OUR METHOD</h2>
+        <P>"We use a variety of methods to make learning effective and engaging. Our approach combines traditional teaching with modern tools and interactive activities. Students benefit from hands-on experiences, group work, and real-world applications. We focus on making lessons interesting and relevant to everyday life. Personalized feedback helps students improve and stay motivated. This mix of techniques ensures that everyone can learn in a way that suits them best."</P>
+    </div>
+    <div class="ourway-photo-container">
+        <img src="/assests/Learning-Featured1.jpg" alt="ourway" class="ourway-photo">
+    </div>
+</section>
+<br><br><br><br><br><br><br>
+<br><br><br>
+
+<footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 LEARNING. All rights reserved.</p>
+      <p>Contact us: RewaaGaber@gmail.com| (123) 456-7890</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+    <script src="/javascript/main.js"></script>
+</body>
+
+</html>
